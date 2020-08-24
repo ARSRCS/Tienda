@@ -5,7 +5,8 @@ public class Supplier {
     private String name;
     private String country;
 
-
+    public Supplier(){
+    }
     public Supplier(long id, String name, String country){
         this.supplierId=id;
         this.name=name;

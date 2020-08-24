@@ -11,8 +11,8 @@
     <groupId>com.store</groupId>
     <artifactId>tienda</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>tienda</name>
-    <description>Tienda en Spring Boot</description>
+    <name>store</name>
+    <description>Store in Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -74,6 +74,11 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

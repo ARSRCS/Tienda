@@ -9,7 +9,7 @@ import repositories.supplier.*;
 @Configuration
 public class Config {
 
-    @Value("jdbc:postgresql://localhost:5432/store_db")
+    @Value("${spring.datasource.url}")
     private String connection;
 
     @Bean
